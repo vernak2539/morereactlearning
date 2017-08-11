@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
-import VisibleTodoList from './VisibleTodoList';
-import AddTodo from './AddTodo';
-import Footer from './Footer';
+import VisibleTodoList from './components/VisibleTodoList';
+import AddTodo from './components/AddTodo';
+import Footer from './components/Footer';
 
 import todosReducer from './reducers/todos';
 import visibilityFilterReducer from './reducers/visibilityFilter';
