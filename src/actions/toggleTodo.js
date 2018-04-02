@@ -1,8 +1,6 @@
-const toggleTodo = id => {
-	return {
-		type: 'TOGGLE_TODO',
-		id
-	};
-};
+const toggleTodo = id => ({
+	type: 'TOGGLE_TODO',
+	id
+});
 
 export default toggleTodo;
